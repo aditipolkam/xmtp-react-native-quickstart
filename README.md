@@ -1,4 +1,4 @@
-### Getting started
+# Getting started
 - npx react-native init xmtp-react-native-quickstart
 - npx install-expo-modules@latest
 - npm install expo
