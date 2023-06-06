@@ -11,8 +11,7 @@ Then navigate to the `build.gradle` file inside the android director and update 
 Then navigate to the `Podfile` in the ios directory and update the min version to 16 which is required for for XMTP
 add 
 
-### Pod file
-1. Update pod file
+1. Update Pod file inside IOS folder
 ```
 //line 5
 platform :ios, '16.0'
