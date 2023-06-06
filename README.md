@@ -20,9 +20,10 @@ platform :ios, '16.0'
 pod 'secp256k1.swift', :modular_headers => true
 ```
 2. Update xcode project 
+- open xmtp-react-native-quickstart.xcodeproj
+- hange main deployment target to 16.0
 
-a. open xmtp-react-native-quickstart.xcodeproj
-b. change main deployment target to 16.0
+3. Run
 
 ```
 cd ios
