@@ -13,6 +13,8 @@ add
 
 ### Pod file
 ```
-line 5platform :ios, '16.0'
-line 39 pod 'secp256k1.swift', :modular_headers => true
+//line 5
+platform :ios, '16.0'
+//line 39 
+pod 'secp256k1.swift', :modular_headers => true
 ```
