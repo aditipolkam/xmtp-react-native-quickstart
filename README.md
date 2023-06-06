@@ -8,35 +8,9 @@ Then navigate to the `build.gradle` file inside the android director and update 
 Then navigate to the `Podfile` in the ios directory and update the min version to 16 which is required for for XMTP
 add 
 
-
-### Build props (doesnt work)
-npm i expo-build-properties
-https://docs.expo.dev/versions/latest/sdk/build-properties/
-
-```
-"expo": {
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "compileSdkVersion": 31,
-            "targetSdkVersion": 31,
-            "buildToolsVersion": "31.0.0"
-          },
-          "ios": {
-            "deploymentTarget": "13.0"
-          }
-        }
-      ]
-    ]
-  }
-```
-
+##IOS 
 ### Pod file
-line 5
-
-platform :ios, '16.0'
-
-line 39
-pod 'secp256k1.swift', :modular_headers => true
+```
+line 5platform :ios, '16.0'
+line 39 pod 'secp256k1.swift', :modular_headers => true
+```
