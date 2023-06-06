@@ -4,11 +4,13 @@
 - npm install expo
 - npm i @xmtp/react-native-sdk
 
+## Android
 Then navigate to the `build.gradle` file inside the android director and update the minSDK to 22 which is required for XMTP
+
+## IOS 
 Then navigate to the `Podfile` in the ios directory and update the min version to 16 which is required for for XMTP
 add 
 
-##IOS 
 ### Pod file
 ```
 line 5platform :ios, '16.0'
