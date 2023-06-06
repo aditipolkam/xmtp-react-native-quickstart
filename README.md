@@ -1,4 +1,4 @@
-# Getting started
+## Getting started
 - npx react-native init xmtp-react-native-quickstart
 - npx install-expo-modules@latest
 - npm install expo
@@ -12,9 +12,21 @@ Then navigate to the `Podfile` in the ios directory and update the min version t
 add 
 
 ### Pod file
+1. Update pod file
 ```
 //line 5
 platform :ios, '16.0'
 //line 39 
 pod 'secp256k1.swift', :modular_headers => true
+```
+2. Update xcode project 
+
+a. open xmtp-react-native-quickstart.xcodeproj
+b. change main deployment target to 16.0
+
+```
+cd ios
+pod install
+cd ..
+npm run ios
 ```
